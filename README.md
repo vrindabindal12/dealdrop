@@ -161,3 +161,14 @@ SELECT cron.schedule(
 ```
 
 **Note:** Update the URL and Authorization Bearer token in the function after deployment.
+
+#### Enable Google Authentication
+
+1. Go to **Authentication** → **Providers** in Supabase
+2. Enable **Google** provider
+3. Get OAuth credentials from [Google Cloud Console](https://console.cloud.google.com/):
+   - Create a new project or select existing
+   - Enable Google+ API
+   - Create OAuth 2.0 credentials
+   - Add authorized redirect URI: `https://<your-project>.supabase.co/auth/v1/callback`
+4. Copy Client ID and Client Secret to Supabase
