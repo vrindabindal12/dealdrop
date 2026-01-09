@@ -26,3 +26,13 @@ Track product prices across e-commerce sites and get alerts on price drops. Buil
 - **shadcn/ui** - UI component library
 - **Recharts** - Interactive charts
 - **Tailwind CSS** - Styling
+
+## 📋 Prerequisites
+
+Before you begin, ensure you have:
+
+- Node.js 18+ installed
+- A [Supabase](https://supabase.com) account
+- A [Firecrawl](https://firecrawl.dev) account
+- A [Resend](https://resend.com) account
+- Google OAuth credentials from [Google Cloud Console](https://console.cloud.google.com/)
