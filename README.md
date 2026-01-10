@@ -354,4 +354,10 @@ dealdrop/
 ```
 
 ## 🧪 Testing
+### Test with cURL
 
+```bash
+curl -X POST https://your-app.vercel.app/api/cron/check-prices \
+  -H "Authorization: Bearer your_cron_secret" \
+  -H "Content-Type: application/json"
+```
